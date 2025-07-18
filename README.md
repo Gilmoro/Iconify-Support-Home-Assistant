@@ -1,19 +1,21 @@
 # Iconify Support for Home Assistant
 
-This HACS frontend add-on enables picking icons from [Iconify](https://iconify.design/) in all places of the Home Assistant UI.
+This HACS integration enables the use of thousands of icons from [Iconify](https://iconify.design/) everywhere in Home Assistant.
 
 ## Features
-- Adds an "Iconify" tab to the icon picker
-- Dynamic search for thousands of icons
-- Click to select and use Iconify icons anywhere icons are supported
+- Use any Iconify icon in entities, cards, automations, and more
+- Just specify the icon as `iconify:iconname` (e.g., `iconify:mdi:home`, `iconify:logos:github`)
+- No need for a custom Lovelace card or frontend patch
 
 ## Installation
-1. Add this repository to HACS as a custom repository (category: frontend).
-2. Install the add-on via HACS.
-3. Restart Home Assistant or refresh your browser.
+1. Add this repository to HACS as a custom repository (category: integration).
+2. Install the integration via HACS.
+3. Restart Home Assistant.
 
 ## Usage
-- When editing an entity, card, or automation, open the icon picker and use the "Iconify" tab to search and select icons.
+- In any icon field (entity, card, automation, etc.), use the format `iconify:iconname`.
+- Example: To use the GitHub logo, set the icon to `iconify:logos:github`.
+- Browse available icons at [Iconify Gallery](https://iconify.design/icon-sets/).
 
 ## License
 MIT License
