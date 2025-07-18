@@ -1,0 +1,9 @@
+{
+  "domain": "iconify",
+  "name": "Iconify Icons",
+  "documentation": "https://iconify.design/",
+  "dependencies": [],
+  "codeowners": ["@Gilmoro"],
+  "requirements": [],
+  "version": "1.0.0"
+}
