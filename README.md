@@ -1,41 +1,19 @@
 # Iconify Support for Home Assistant
 
-This custom module enables support for using [Iconify](https://icon-sets.iconify.design) icons in Home Assistant via:
+This HACS frontend add-on enables picking icons from [Iconify](https://iconify.design/) in all places of the Home Assistant UI.
 
-```yaml
-icon: iconify:simple-icons:github
-```
+## Features
+- Adds an "Iconify" tab to the icon picker
+- Dynamic search for thousands of icons
+- Click to select and use Iconify icons anywhere icons are supported
 
-## How it works
-
-- Patches `ha-icon` to detect `iconify:` prefix
-- Uses the Iconify Web Component to render any supported icon
-
-## Installation (Manual or HACS)
-
-1. Install this module
-2. Add this resource in **Settings → Dashboards → Resources**:
-
-```
-URL: /hacsfiles/iconify-support/iconify-support.js
-Type: JavaScript Module
-```
-
-3. Also add the Iconify web component:
-
-> **Security Note:** Loading external JavaScript from a CDN may pose security risks. Consider downloading and bundling the Iconify library locally, or ensure you understand the implications of loading third-party scripts.
-
-**Option 1: Load from CDN (less secure):**
-
-```
-URL: https://code.iconify.design/3/3.1.0/iconify.min.js
-Type: JavaScript Module
-```
-
-4. Restart Home Assistant
+## Installation
+1. Add this repository to HACS as a custom repository (category: frontend).
+2. Install the add-on via HACS.
+3. Restart Home Assistant or refresh your browser.
 
 ## Usage
+- When editing an entity, card, or automation, open the icon picker and use the "Iconify" tab to search and select icons.
 
-```yaml
-icon: iconify:simple-icons:github
-```
+## License
+MIT License
