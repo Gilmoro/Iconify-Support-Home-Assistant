@@ -1,0 +1,7 @@
+{
+  "name": "Iconify Support for Home Assistant",
+  "content_in_root": true,
+  "filename": "iconify-support.js",
+  "type": "module",
+  "render_readme": true
+}

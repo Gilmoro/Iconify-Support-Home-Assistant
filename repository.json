@@ -1,0 +1,11 @@
+{
+  "name": "Iconify Support for Home Assistant",
+  "content_in_root": true,
+  "filename": "iconify-support.js",
+  "type": "module",
+  "render_readme": true,
+  "hide_default_branch": false,
+  "iot_class": "cloud-independent",
+  "domain": "iconify_support",
+  "zip_release": false
+}

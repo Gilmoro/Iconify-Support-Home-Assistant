@@ -1,0 +1,20 @@
+{
+  "name": "Iconify Support for Home Assistant",
+  "description": "Adds Iconify icon support to Home Assistant's icon picker.",
+  "version": "0.1.0",
+  "resources": [
+    {
+      "type": "module",
+      "url": "/iconify-support.js"
+    }
+  ],
+  "hacs": {
+    "name": "Iconify Support",
+    "category": "frontend",
+    "description": "Adds Iconify icon support to Home Assistant's icon picker.",
+    "country": "all",
+    "resources": [
+      "iconify-support.js"
+    ]
+  }
+}
